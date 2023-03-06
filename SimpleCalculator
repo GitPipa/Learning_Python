@@ -2,6 +2,5 @@ def calculadora():
     for i in range(10000):
         x=eval(input("What do you me to calculate? Insert the operation and I will tell you the result. For addition use +, for subtraction use -, for dividing use / and multiplication use *. You want to exponentiate? That will be **. Try me: "))
         print(x)
-        print()
     
 calculadora()
