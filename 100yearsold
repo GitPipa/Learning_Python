@@ -1,0 +1,10 @@
+def hundred ():
+    name = input(print("What's your name?"))
+    age = input(print("And how old are you?"))
+    agei = int(age)
+    yearbirth = 2023 - agei
+    year100 =  yearbirth + 100
+    print("Well,", name, ", in", year100, "you will be 100 years old!")
+    
+    
+hundred ()
